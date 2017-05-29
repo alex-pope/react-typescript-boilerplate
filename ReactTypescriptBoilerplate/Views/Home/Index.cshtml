@@ -1,18 +1,7 @@
 ﻿@{
-    Layout = null;
+    ViewBag.Title = "Hello React!";
 }
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Hello React!</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
-</head>
-<body>
-    <div id="example"></div>
-    <script src="~/dist/react/react.js"></script>
-    <script src="./dist/react-dom/react-dom.js"></script>
-    <script src="~/dist/react-bootstrap/react-bootstrap.js"></script>
+<div id="example"></div>
+@section Scripts {
     <script src="~/dist/bundle.js"></script>
-</body>
-</html>
+}
